@@ -29,6 +29,7 @@ graph LR
     E -->|5. Create Star Schema| H[(analytics.fact_sales)]
     H -.->|Join for Analytics| I[Business Insights]
 
+```
 ### 📊 Menjalankan Dashboard Visualisasi
 Setelah pipeline selesai dijalankan dan file `retail_warehouse.db` terbentuk, Anda dapat memvisualisasikan datanya:
 1. Install dependencies: `pip install -r requirements.txt`
